@@ -1,216 +1,297 @@
-Dentelo - We Are Best Dental Service
-
-
-
-#---------- HEADER ----------#
-
-<ion-icon name="mail-outline"></ion-icon>
-info@example.com
-
-<ion-icon name="call-outline"></ion-icon>
-+91-7052-101-786
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-youtube"></ion-icon>
-
-Dentelo.
-
-Home
-Services
-About Us
-Blog
-Contact
-
-Book appointment
-
-aria-label = Toggle menu
-
-<ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
-<ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
-
-
-
-#---------- HERO ----------#
-
-Welcome To Dentelo
-
-We Are Best Dental Service
-
-Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.
-
-aria-label = email
-
-placeholder = Your Email Address...
-
-Get Call Back
-
-alt = hero banner
-
-
-
-#---------- SERVICE ----------#
-
-Our Services
-
-What We Provide
-
-alt = service icon
-
-Root Canal
-
-Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
-
-Alignment Teeth
-
-Cosmetic Teeth
-
-alt = service banner
-
-Oral Hygiene
-
-Live Advisory
-
-Cavity Inspection
-
-
-
-#---------- ABOUT ----------#
-
-alt = about banner
-
-About Us
-
-We Care For Your Dental Health
-
-Aliquam ac sem et diam iaculis efficitur. Morbi in enim odio. Nullam quis volutpat est, sed dapibus sapien. Cras condimentum eu velit id tempor. Curabitur purus sapien, cursus sed nisl tristique, commodo vehicula arcu.
-
-Aliquam erat volutpat. Aliquam enim massa, sagittis blandit ex mattis, ultricies posuere sapien. Morbi a dignissim enim. Fusce elementum, augue in elementum porta, sapien nunc volutpat ex, a accumsan nunc lectus eu lectus.
-
-Read more
-
-
-
-#---------- DOCTOR ----------#
-
-Our Doctor
-
-Best Expert Dentist
-
-alt = Howard Holmes
-
-Howard Holmes
-Dentist
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-
-alt = Ella Thompson
-Ella Thompson
-
-alt = Vincent Cooper
-Vincent Cooper
-
-alt = Danielle Bryant
-Danielle Bryant
-
-
-
-#---------- CTA ----------#
-
-alt = cta banner
-
-Book Dentail Appointment
-
-We Are open And Welcoming Patients
-
-Book appointment
-
-
-
-#---------- BLOG ----------#
-
-Our Blog
-
-Latest Blog & News
-
-alt = Cras accumsan nulla nec lacus ultricies placerat.
-
-<ion-icon name="calendar-outline"></ion-icon>
-
-24th March 2022
-
-Cras accumsan nulla nec lacus ultricies placerat.
-
-Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.
-
-Read More
-
-Dras accumsan nulla nec lacus ultricies placerat.
-
-Seas accumsan nulla nec lacus ultricies placerat.
-
-
-
-#---------- FOOTER ----------#
-
-Dentelo.
-
-Mauris non nisi semper, lacinia neque in, dapibus leo. Curabitur sagittis libero tincidunt tempor finibus. Mauris at dignissim ligula, nec tristique orci.Quisque vitae metus.
-
-<ion-icon name="time-outline"></ion-icon>
-
-Monday - Saturday:
-9:00am - 10:00Pm
-
-Other Links
-
-<ion-icon name="add-outline"></ion-icon>
-Home
-About Us
-Services
-Project
-Our Team
-Latest Blog
-
-
-Our Services
-
-Root Canal
-Alignment Teeth
-Cosmetic Teeth
-Oral Hygiene
-Live Advisory
-Cavity Inspection
-
-
-Contact Us
-
-<ion-icon name="location-outline"></ion-icon>
-1247/Plot No. 39, 15th Phase,
-LHB Colony, Kanpur
-
-<ion-icon name="call-outline"></ion-icon>
-+91-7052-101-786
-
-<ion-icon name="mail-outline"></ion-icon>
-help@example.com
-
-
-&copy; 2022 All Rights Reserved by codewithsadee.
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urtecho - Centro de Salud Estético y Odontológico</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-top" data-header>
+      <div class="container">
+        <ul class="contact-list">
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+            <a href="mailto:c.o.urtecho@hotmail.com" class="contact-link">c.o.urtecho@hotmail.com</a>
+          </li>
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+            <a href="tel:+917052101786" class="contact-link">(044) 539112</a>
+          </li>
+        </ul>
+        <ul class="social-list">
+          <li><a href="https://www.facebook.com/urtecho.trujillo" target="_blank" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="https://www.instagram.com/centro.de.salud.urtecho?igsh=bG9xaHRmbmF2aGp0" target="_blank" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
+        </ul>
+      </div>
+    </div>
   
+    <div class="header-bottom" data-header>
+      <div class="container">
+        <img class="logo" src="img/358719580_733280452141184_8390100635718865263_n.jpg" alt="Urtecho Logo">
+  
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li><a href="#home" class="navbar-link" data-nav-link>Inicio</a></li>
+            <li><a href="#service" class="navbar-link" data-nav-link>Servicios</a></li>
+            <li><a href="#about" class="navbar-link" data-nav-link>Sobre nosotros</a></li>
+            <li><a href="#blog" class="navbar-link" data-nav-link>Encuentranos</a></li>
+            <li><a href="blog.html" class="navbar-link" data-nav-link>Blog</a></li>
+          </ul>
+        </nav>
+  
+        <a href="contacto.html" class="btn">Contáctanos</a>
+  
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </header>
 
+  <!-- MAIN -->
+  <main>
+    <article>
+      <!-- HERO -->
+      <section class="section hero" id="home" style="background-image: url('./assets/images/hero-bg.png')" aria-label="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="section-subtitle">Bienvenido a Urtecho - Centro de Salud Estético y Odontológico</p>
+            <h1 class="h1 hero-title">Somos el <br>mejor Servicio dental</h1>
+            <p class="hero-text">Urtecho | Centro de Salud Estético y Odontológico contamos con un Staff de profesionales capacitados y aptos para darte la mejor atención.</p>
+            <form action="" class="hero-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Your Email Address..." required class="email-field">
+              <button type="submit" class="btn">Recibe notificaciones</button>
+            </form>
+          </div>
+          <figure class="hero-banner">
+            <img src="img/wigger-1.png" alt="hero banner" class="w-100">
+          </figure>
+        </div>
+      </section>
 
+      <!-- SERVICES -->
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+          <p class="section-subtitle text-center">Nuestros Servicios</p>
+          <h2 class="h2 section-title text-center">Lo que ofrecemos</h2>
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="img/carillas.jpg" loading="lazy" alt="service icon" class="w-100">
+                </div>
+                <div>
+                  <h3 class="h3 card-title">Cambio de carillas en resina</h3>
+                  <p class="card-text">Transforma tu sonrisa con nuestro servicio de Cambio de Carillas en Resina</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="img/molares.jpg" width="100" height="100" loading="lazy" alt="service icon" class="w-100">
+                </div>
+                <div>
+                  <h3 class="h3 card-title">Distalización de molares</h3>
+                  <p class="card-text">Mejora tu mordida y alinea tus dientes con nuestro tratamiento ortodóntico avanzado.</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="img/ortodoncia.jpg" width="100" height="100" loading="lazy" alt="service icon" class="w-100">
+                </div>
+                <div>
+                  <h3 class="h3 card-title">Flow Jac System - Ortodoncia sin brackets</h3>
+                  <p class="card-text">Experimenta un tratamiento discreto, cómodo y eficaz para lograr la sonrisa que siempre has deseado</p>
+                </div>
+              </div>
+            </li>
+            <li class="service-banner">
+              <figure>
+                <img src="img/dientesito.png" width="409" height="467" loading="lazy" alt="" class="w-100">
+              </figure>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="img/blanqueamiento.jpg" width="100" height="100" loading="lazy" alt="service icon" class="w-100">
+                </div>
+                <div>
+                  <h3 class="h3 card-title">Blanqueamiento Dental</h3>
+                  <p class="card-text">Descubre resultados visibles desde la primera sesión, sin dolor y en manos de expertos. ¡Luce una sonrisa más brillante y segura hoy mismo!</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="img/digital-sonrisa.jpg" width="100" height="100" loading="lazy" alt="service icon" class="w-100">
+                </div>
+                <div>
+                  <h3 class="h3 card-title">Diseño de sonrisa digital</h3>
+                  <p class="card-text">Personaliza tu sonrisa perfecta con precisión y detalle, garantizando resultados sorprendentes</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <img src="img/bracketes.jpg" width="100" height="100" loading="lazy" alt="service icon" class="w-100">
+                </div>
+                <div>
+                  <h3 class="h3 card-title">Brackets convencionales</h3>
+                  <p class="card-text">Nuestros brackets convencionales ofrecen la solución ideal para alinear tus dientes con precisión y comodidad</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
+      <!-- ABOUT -->
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="img/mision.jpg" width="470" height="538" loading="lazy" alt="about banner" class="w-100">
+          </figure>
+          <div class="about-content">
+            <p class="section-subtitle">Nuestra Misión</p>
+            <h2 class="h2 section-title">Cuidamos tu salud dental</h2>
+            <p class="section-text section-text-1">Nuestra misión es ayudar a nuestros pacientes a lograr sonrisas limpias y relucientes. Nos esforzamos por brindar una atención personalizada y de alta calidad para satisfacer las necesidades individuales de cada paciente.</p>
+            <a href="#" class="btn">Lee más...</a>
+          </div>
+        </div>
+      </section>
 
-#---------- BACK TO TOP ----------#
+      <section class="section about" id="about2" aria-label="about">
+        <div class="container">
+          <figure class="about2-banner">
+            <img src="img/vision.png" width="470" height="538" loading="lazy" alt="about banner" class="w-100">
+          </figure>
+          <div class="about2-content">
+            <p class="section-subtitle">Nuestra Visión</p>
+            <h2 class="h2 section-title">Embellecemos y protegemos tu sonrisa</h2>
+            <p class="section-text section-text-1">En Urtecho - Centro de Salud Estético y Odontológico, nos comprometemos a ser líderes en el cuidado dental integral y estético. Nos esforzamos por ofrecer tratamientos innovadores y personalizados que no solo restauren la salud bucal, sino que también embellezcan las sonrisas de nuestros pacientes.</p>
+            <a href="#" class="btn">Lee más...</a>
+          </div>
+        </div>
+      </section>
 
-aria-label = back to top
+      <!-- CTA -->
+      <section class="section cta" aria-label="cta">
+        <div class="container">
+          <figure class="cta-banner">
+            <img src="img/paciente.png" loading="lazy" alt="cta banner" class="w-100">
+          </figure>
+          <div class="cta-content">
+            <p class="section-subtitle">URTECHO - CENTRO DE SALUD ESTÉTICO Y ODONTOLÓGICO</p>
+            <h2 class="h2 section-title">Somos Pacientes Abiertos Y Acogedores</h2>
+            <a href="contacto.html" class="btn">Contactanos</a>
+          </div>
+        </div>
+      </section>
 
-<ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+    <!-- LOCATION -->
+<section class="section blog" id="blog" aria-label="blog">
+  <div class="container">
+    <p class="section-subtitle text-center">URTECHO - CENTRO DE SALUD ESTÉTICO Y ODONTOLÓGICO</p>
+    <h2 class="h2 section-title text-center">Nos ubicamos en:</h2>
+    <ul class="blog-list">
+      <li>
+        <div class="blog-card">
+          <figure class="card-banner img-holder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1660.621705347194!2d-79.04833350613318!3d-8.137443882558424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d16060ef9af%3A0xd32996d5e01e1767!2sCentro%20Odontol%C3%B3gico%20Urtecho!5e0!3m2!1ses-419!2spe!4v1718247653997!5m2!1ses-419!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+          <div class="card-content">
+            <h3 class="h3"><a href="#" class="card-title">La Libertad - Trujillo</a></h3>
+            <p class="card-text">Visitanos en: Calle 28 de Julio #240 Vista Alegre</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+    </article>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top section">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo" style="font-size: 20px;">URTECHO - CENTRO DE SALUD ESTÉTICO Y ODONTOLÓGICO.</a>
+          <div class="schedule"></div>
+        </div>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Otros Enlaces</p></li>
+          <li><a href="#" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Inicio</span></a></li>
+          <li><a href="#about" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Sobre Nosotros</span></a></li>
+          <li><a href="#service" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Servicios</span></a></li>
+          <li><a href="#" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Proyecto</span></a></li>
+          <li><a href="#" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Nuestro Equipo</span></a></li>
+          <li><a href="blog.html" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Último Blog</span></a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Nuestros servicios</p></li>
+          <li><a href="#service" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Cambio de carillas</span></a></li>
+          <li><a href="#service" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Distalización</span></a></li>
+          <li><a href="#service" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Flow Jac System</span></a></li>
+          <li><a href="#service" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Blanqueamiento</span></a></li>
+          <li><a href="#service" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Sonrisa digital</span></a></li>
+          <li><a href="#service" class="footer-link"><ion-icon name="add-outline"></ion-icon><span class="span">Brackets</span></a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Contáctanos</p></li>
+          <li class="footer-item">
+            <div class="item-icon"><ion-icon name="location-outline"></ion-icon></div>
+            <address class="item-text">La Libertad - Trujillo <br>Calle 28 de Julio #240 Vista Alegre</address>
+          </li>
+          <li class="footer-item">
+            <div class="item-icon"><ion-icon name="call-outline"></ion-icon></div>
+            <a href="tel:+917052101786" class="footer-link">(044) 539112</a>
+          </li>
+          <li class="footer-item">
+            <div class="item-icon"><ion-icon name="mail-outline"></ion-icon></div>
+            <a href="mailto:help@example.com" class="footer-link">c.o.urtecho@hotmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <ul class="social-list">
+          <li><a href="https://www.facebook.com/urtecho.trujillo" target="_blank" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="https://www.instagram.com/centro.de.salud.urtecho?igsh=bG9xaHRmbmF2aGp0" target="_blank" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="#" target="_blank" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
