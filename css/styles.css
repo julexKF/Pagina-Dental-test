@@ -1586,7 +1586,7 @@ body, html {
 
   .cta-banner { margin-block-end: 0; }
 
-  .cta-content { padding-block: 60px; }
+  
 
 
 
@@ -1594,7 +1594,7 @@ body, html {
    * BLOG
    */
 
-  .blog-list { grid-template-columns: 1fr 1fr; }
+ 
 
 
 
@@ -1789,7 +1789,7 @@ body, html {
    * BLOG
    */
 
-  .blog-list { grid-template-columns: repeat(3, 1fr); }
+  
 
 
 
@@ -1889,7 +1889,7 @@ body, html {
 
 
 /* Estilos responsivos para pantallas pequeñas */
-@media (max-width: 575px) {
+@media (max-width: 1200px) {
   .service-card {
     flex-direction: column; /* Cambia la dirección del flex a columna */
     align-items: center;
@@ -1930,13 +1930,6 @@ body, html {
     margin-right: 0;
   }
 
-  .blog-card iframe {
-    width: 100%; /* Asegura que el iframe ocupe el ancho completo */
-    height: 300px; /* Ajusta la altura según sea necesario */
-  }
-
-
-
   .footer-brand .logo {
     display: inline;
     font-size: 13px;
@@ -1947,14 +1940,14 @@ body, html {
     word-wrap: break-word;
     text-align: left; /* Asegura que el texto esté alineado a la izquierda */
   }
-
-} 
-
-@media (min-width: 900px) {
   .blog-card iframe {
-    width: 800px; /* Establece un ancho fijo para el iframe */
-    height: 600px; /* Establece una altura fija para el iframe */
+    width: 100%; /* Establece un ancho fijo para el iframe */
+    height: 100%; /* Establece una altura fija para el iframe */
     margin: 0 auto; /* Centra el iframe horizontalmente */
     display: block; /* Asegura que el iframe se muestre como un bloque */
   }
-}
+
+} 
+
+
+
