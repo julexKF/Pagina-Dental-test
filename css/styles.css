@@ -354,6 +354,7 @@ body, html {
   font-size: var(--fs-6);
   line-height: 1.45;
   margin-block-end: 40px;
+  text-align: justify;
 }
 
 .hero-form {
@@ -476,7 +477,6 @@ body, html {
   .cta .btn {
     max-width: max-content;
   }
-
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
@@ -1080,6 +1080,7 @@ body, html {
   font-size: var(--fs-6);
   line-height: 1.45;
   margin-block-end: 40px;
+  
 }
 
 .hero-form {
@@ -1584,7 +1585,6 @@ body, html {
     gap: 60px;
   }
 
-  .cta-banner { margin-block-end: 0; }
 
   
 
@@ -1923,7 +1923,7 @@ body, html {
   .cta .btn {
     max-width: 200px; /* Puedes ajustar esto según el tamaño del botón */
     width: 100%; /* Asegura que el botón ocupe el ancho disponible */
-    margin: 15px auto 0; /* Centrar el botón con margen superior e inferior */
+    margin: auto auto; /* Centrar el botón con margen superior e inferior */
   }
   .blog-card {
     margin-left: 0;
